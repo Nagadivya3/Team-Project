@@ -1,0 +1,59 @@
+body{
+    background-image: url("ofcN7C.webp");
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+.container{
+    background-color: black;
+    margin-left: 10%;
+    margin-top: 4%;
+    border: 5px solid rgba(228, 229, 247, 0.539);
+    height: 50vh;
+    width: 50vh;
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    
+}
+.button1{
+    color: rgb(31, 42, 247);
+    margin-right: 20px;
+}
+.button2{
+    color: rgb(31, 42, 247);
+    margin-right: 20px;
+}
+.button1:hover{
+    background-color: rgb(16, 16, 16);
+}
+.button2:hover{
+    background-color: rgb(16, 16, 16);
+}
+p{
+    color: blue;
+}
+p:hover{
+    text-decoration: underline;
+    color: brown;
+}
+@media screen and (max-device-width: 1460px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-size: 100% 100%;
+        justify-content: center;
+    }
+    .container{
+        width: 400px;
+        height: 300px;
+        background-color: rgb(19, 17, 17);
+        color:white;
+        padding-top: 8%;
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+}
+

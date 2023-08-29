@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    background-image: url("carimage2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.Register{
+    width: 30%;
+    height: 30%;
+    border: 2px solid black;
+    border-style: collapse;
+    margin-left: 65%;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(247, 179, 90);
+}
+.page{
+    text-align: center;
+    padding:5%;
+    color: rgb(4, 0, 11);
+    font-size: medium;
+}
